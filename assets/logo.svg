@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF2D6B"/>
+      <stop offset="50%" stop-color="#FF8C00"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+  <polygon
+    fill="url(#logoGrad)"
+    points="50,0.08 66.5,10.2 85.3,14.7 89.8,33.5 99.9,50 89.8,66.5 85.3,85.3 66.5,89.8 50,99.9 33.5,89.8 14.7,85.3 10.2,66.5 0.08,50 10.2,33.5 14.7,14.7 33.5,10.2"
+  />
+</svg>

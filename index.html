@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramake — CV · Infografiche · Siti Web</title>
+  <meta name="description" content="Ramake crea CV professionali, infografiche e siti web che ti fanno emergere. Design accessibile, autentico e orientato ai risultati." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="#hero" class="nav-logo">
+        <svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="navLogoGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#FF2D6B"/>
+              <stop offset="50%" stop-color="#FF8C00"/>
+              <stop offset="100%" stop-color="#FFB300"/>
+            </linearGradient>
+          </defs>
+          <polygon fill="url(#navLogoGrad)" points="50,0.08 66.5,10.2 85.3,14.7 89.8,33.5 99.9,50 89.8,66.5 85.3,85.3 66.5,89.8 50,99.9 33.5,89.8 14.7,85.3 10.2,66.5 0.08,50 10.2,33.5 14.7,14.7 33.5,10.2"/>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="logo-name">RAMAKE</span>
+          <span class="logo-sub">CV · INFOGRAFICHE · SITI WEB</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Apri menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#chi-siamo">Chi siamo</a></li>
+        <li><a href="#servizi">Servizi</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contatti" class="nav-cta">Contattaci</a></li>
+      </ul>
+
+      <div class="nav-socials">
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.73a8.24 8.24 0 004.83 1.56V6.84a4.85 4.85 0 01-1.06-.15z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="blob blob-pink"></div>
+    <div class="blob blob-orange"></div>
+    <div class="container hero-inner">
+      <div class="hero-badge">
+        <svg class="badge-star" viewBox="0 0 100 100"><polygon fill="#FF2D6B" points="50,0.08 66.5,10.2 85.3,14.7 89.8,33.5 99.9,50 89.8,66.5 85.3,85.3 66.5,89.8 50,99.9 33.5,89.8 14.7,85.3 10.2,66.5 0.08,50 10.2,33.5 14.7,14.7 33.5,10.2"/></svg>
+        <span>Design che fa la differenza</span>
+      </div>
+      <h1 class="hero-title">
+        Il tuo <span class="grad-pink-orange">brand</span> merita<br>
+        di essere <span class="grad-teal-blue">visto</span>.
+      </h1>
+      <p class="hero-desc">CV professionali, infografiche chiare e siti web che convertono. Tutto su misura per te, senza fronzoli e senza costi assurdi.</p>
+      <div class="hero-actions">
+        <a href="#contatti" class="btn btn-primary">Inizia ora</a>
+        <a href="#portfolio" class="btn btn-ghost">Vedi il portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHI SIAMO ===== -->
+  <section class="section-light" id="chi-siamo">
+    <div class="container">
+      <div class="section-label">Chi siamo</div>
+      <h2 class="section-title">Design accessibile,<br><span class="grad-pink-orange">risultati reali</span>.</h2>
+      <p class="section-desc">Ramake nasce dalla convinzione che un buon design non debba costare un patrimonio. Aiutiamo professionisti, freelance e piccole imprese a presentarsi al meglio.</p>
+      <div class="cards-3">
+        <div class="value-card reveal">
+          <div class="value-icon" style="background:linear-gradient(135deg,#FF2D6B,#FF8C00)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Accessibile</h3>
+          <p>Prezzi onesti per chi vuole fare le cose per bene senza svuotare il portafoglio.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon" style="background:linear-gradient(135deg,#4B7BEC,#8B5CF6)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Autentico</h3>
+          <p>Ogni progetto racconta la tua storia, non una storia generica copiata da un template.</p>
+        </div>
+        <div class="value-card reveal">
+          <div class="value-icon" style="background:linear-gradient(135deg,#00D4A1,#4B7BEC)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <h3>Risultato</h3>
+          <p>Non lavoriamo per la bellezza fine a sé stessa. Ogni scelta grafica ha uno scopo concreto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COSA FACCIAMO ===== -->
+  <section class="section-dark" id="servizi">
+    <div class="container">
+      <div class="section-label light">Cosa facciamo</div>
+      <h2 class="section-title light">I nostri <span class="grad-teal-blue">servizi</span>.</h2>
+      <div class="cards-3">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3>CV Professionale</h3>
+          <ul class="service-list">
+            <li>Layout personalizzato al tuo settore</li>
+            <li>Ottimizzato per i sistemi ATS</li>
+            <li>Versione italiana e inglese</li>
+            <li>Consegna in PDF editabile</li>
+            <li>Revisioni incluse</li>
+          </ul>
+          <div class="service-badge" style="background:linear-gradient(135deg,#FF2D6B,#FF8C00)">Da €49</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Infografiche</h3>
+          <ul class="service-list">
+            <li>Dati complessi resi semplici</li>
+            <li>Brand identity coerente</li>
+            <li>Formati social, print e web</li>
+            <li>Animazioni leggere incluse</li>
+            <li>File sorgente incluso</li>
+          </ul>
+          <div class="service-badge" style="background:linear-gradient(135deg,#4B7BEC,#8B5CF6)">Da €79</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Sito Web</h3>
+          <ul class="service-list">
+            <li>Design su misura, no template</li>
+            <li>Responsive e veloce</li>
+            <li>SEO base inclusa</li>
+            <li>Form di contatto funzionante</li>
+            <li>Manutenzione primo mese</li>
+          </ul>
+          <div class="service-badge" style="background:linear-gradient(135deg,#00D4A1,#4B7BEC)">Da €299</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IL PROCESSO ===== -->
+  <section class="section-light" id="processo">
+    <div class="container">
+      <div class="section-label">Il processo</div>
+      <h2 class="section-title">Come <span class="grad-pink-orange">funziona</span>.</h2>
+      <p class="section-desc">Cinque passi chiari per arrivare al risultato senza sorprese.</p>
+      <div class="process-timeline">
+        <div class="process-line"></div>
+        <div class="process-steps">
+          <div class="process-step reveal">
+            <div class="step-circle" style="background:linear-gradient(135deg,#FF2D6B,#FF8C00)">1</div>
+            <div class="step-content">
+              <h4>Brief</h4>
+              <p>Ci racconti chi sei, cosa fai e cosa vuoi ottenere. Nessun form infinito.</p>
+              <span class="step-time">Giorno 1</span>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-circle" style="background:linear-gradient(135deg,#FF8C00,#FFB300)">2</div>
+            <div class="step-content">
+              <h4>Proposta</h4>
+              <p>Inviamo una bozza di concept con palette, font e struttura.</p>
+              <span class="step-time">Giorno 2–3</span>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-circle" style="background:linear-gradient(135deg,#4B7BEC,#8B5CF6)">3</div>
+            <div class="step-content">
+              <h4>Design</h4>
+              <p>Realizziamo il progetto al 100% rispettando il concept approvato.</p>
+              <span class="step-time">Giorno 4–7</span>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-circle" style="background:linear-gradient(135deg,#8B5CF6,#00D4A1)">4</div>
+            <div class="step-content">
+              <h4>Revisioni</h4>
+              <p>Fino a 2 round di modifiche inclusi. Niente costi nascosti.</p>
+              <span class="step-time">Giorno 8–10</span>
+            </div>
+          </div>
+          <div class="process-step reveal">
+            <div class="step-circle" style="background:linear-gradient(135deg,#00D4A1,#4B7BEC)">5</div>
+            <div class="step-content">
+              <h4>Consegna</h4>
+              <p>File finale nei formati che ti servono. Pronti a usare subito.</p>
+              <span class="step-time">Giorno 11–14</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section-dark" id="portfolio">
+    <div class="container">
+      <div class="section-label light">Portfolio</div>
+      <h2 class="section-title light">I nostri <span class="grad-pink-orange">lavori</span>.</h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">Tutti</button>
+        <button class="filter-btn" data-filter="cv">CV</button>
+        <button class="filter-btn" data-filter="infografica">Infografiche</button>
+        <button class="filter-btn" data-filter="sito">Siti Web</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal" data-cat="cv">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#FF2D6B 0%,#FF8C00 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-cv"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">CV</span>
+            <h4>CV Marketing Manager</h4>
+            <p>Layout moderno con sezione competenze visuale.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-cat="infografica">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#4B7BEC 0%,#8B5CF6 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-infographic"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Infografica</span>
+            <h4>Report Annuale Startup</h4>
+            <p>KPI e metriche di crescita in un solo sguardo.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-cat="sito">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#00D4A1 0%,#4B7BEC 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-site"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Sito Web</span>
+            <h4>Portfolio Fotografo</h4>
+            <p>Galleria full-screen con navigazione fluida.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-cat="cv">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#FFB300 0%,#FF2D6B 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-cv"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">CV</span>
+            <h4>CV Designer UX/UI</h4>
+            <p>Impatto visivo forte, struttura ATS-friendly.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-cat="infografica">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#8B5CF6 0%,#FF2D6B 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-infographic"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Infografica</span>
+            <h4>Timeline Aziendale</h4>
+            <p>Vent'anni di storia in un poster elegante.</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" data-cat="sito">
+          <div class="portfolio-img" style="background:linear-gradient(135deg,#FF8C00 0%,#8B5CF6 100%)">
+            <div class="portfolio-mock">
+              <div class="mock-site"></div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Sito Web</span>
+            <h4>Landing Page Coach</h4>
+            <p>Conversion rate ottimizzato, A/B testata.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PER CHI ===== -->
+  <section class="section-light" id="per-chi">
+    <div class="container">
+      <div class="section-label">Per chi</div>
+      <h2 class="section-title">Lavoriamo <span class="grad-teal-blue">con te</span>.</h2>
+      <div class="perchi-grid">
+        <div class="perchi-card reveal">
+          <div class="perchi-emoji">🎯</div>
+          <h3>Professionisti in cerca di lavoro</h3>
+          <p>Vuoi che il tuo CV venga notato? Ti aiutiamo a presentarti in modo che i recruiter non possano ignorarti.</p>
+        </div>
+        <div class="perchi-card reveal">
+          <div class="perchi-emoji">💼</div>
+          <h3>Freelance e consulenti</h3>
+          <p>Un portfolio online credibile è la differenza tra un cliente in più e un cliente perso. Costruiamolo insieme.</p>
+        </div>
+        <div class="perchi-card reveal">
+          <div class="perchi-emoji">🚀</div>
+          <h3>Startup e piccole imprese</h3>
+          <p>Hai bisogno di materiali di comunicazione professionali senza il budget di una grande agenzia.</p>
+        </div>
+        <div class="perchi-card reveal">
+          <div class="perchi-emoji">📊</div>
+          <h3>Manager e team leader</h3>
+          <p>Report e presentazioni che convincono il board e motivano il team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECENSIONI ===== -->
+  <section class="section-dark" id="recensioni">
+    <div class="container">
+      <div class="section-label light">Recensioni</div>
+      <h2 class="section-title light">Cosa dicono <span class="grad-pink-orange">di noi</span>.</h2>
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Ho inviato il mio vecchio CV per mesi senza ricevere risposta. Dopo il CV di Ramake ho avuto tre colloqui in due settimane. Non ci credevo."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#FF2D6B,#FF8C00)">S</div>
+            <div>
+              <strong>Sara M.</strong>
+              <span>Marketing Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"L'infografica che hanno creato per la nostra presentazione agli investitori è stata un successo totale. Professionale, chiara e bellissima."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#4B7BEC,#8B5CF6)">M</div>
+            <div>
+              <strong>Marco T.</strong>
+              <span>CEO & Co-founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Finalmente un sito web che sembra davvero mio. Non uno di quei template anonimi. I clienti mi dicono sempre che la prima impressione è stata fondamentale."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#00D4A1,#4B7BEC)">G</div>
+            <div>
+              <strong>Giulia R.</strong>
+              <span>Fotografa Professionista</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section-light" id="faq">
+    <div class="container faq-container">
+      <div class="section-label centered">FAQ</div>
+      <h2 class="section-title centered">Domande <span class="grad-pink-orange">frequenti</span>.</h2>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            Quanto tempo ci vuole per ricevere il mio CV?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Mediamente consegniamo entro 5–7 giorni lavorativi. Per urgenze abbiamo un servizio fast track (48h) con un piccolo supplemento. Contattaci e ne parliamo.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            Quante revisioni sono incluse?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Ogni pacchetto include 2 round di revisioni. Modifiche aggiuntive si concordano caso per caso. Nella nostra esperienza il 95% dei clienti chiude al primo o secondo round.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            In che formato ricevo i file?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>PDF pronto all'uso sempre incluso. Per CV e infografiche aggiungiamo anche il file Word o Illustrator su richiesta. I siti web vengono consegnati con accesso completo all'hosting o ai sorgenti.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            Posso richiedere modifiche dopo la consegna?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sì. Offriamo pacchetti di manutenzione mensile per i siti web e un servizio di aggiornamento per CV a prezzi contenuti. Non ti lasciamo mai senza supporto.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            Come avviene il pagamento?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>50% all'approvazione del brief, 50% alla consegna finale. Accettiamo bonifico, PayPal e Stripe. Per i siti web più complessi ragioniamo su piani a rate.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            Lavorate con clienti di tutta Italia?
+            <svg class="faq-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Assolutamente sì. Siamo 100% remoti e lavoriamo con clienti da Torino a Palermo, e anche dall'estero. Tutto si fa via email, videochiamate e strumenti collaborativi online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATTI ===== -->
+  <section class="section-dark" id="contatti">
+    <div class="blob blob-teal"></div>
+    <div class="container contatti-inner">
+      <div class="contatti-text">
+        <div class="section-label light">Contatti</div>
+        <h2 class="section-title light">Iniziamo a <span class="grad-teal-blue">parlare</span>.</h2>
+        <p class="section-desc light">Raccontaci il tuo progetto. Rispondiamo entro 24 ore, sempre.</p>
+        <div class="contact-info-cards">
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>ciao@ramake.it</span>
+          </div>
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+            <span>@ramake.studio</span>
+          </div>
+          <div class="contact-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+            <span>ramake.it</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nome">Nome e cognome</label>
+            <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="mario@email.it" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="servizio">Servizio di interesse</label>
+          <select id="servizio" name="servizio" required>
+            <option value="" disabled selected>Scegli un servizio…</option>
+            <option value="cv">CV Professionale</option>
+            <option value="infografica">Infografica</option>
+            <option value="sito">Sito Web</option>
+            <option value="altro">Altro / Pacchetto combinato</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="messaggio">Messaggio</label>
+          <textarea id="messaggio" name="messaggio" rows="5" placeholder="Raccontaci il tuo progetto…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Invia messaggio</button>
+        <p class="form-note">Rispondiamo entro 24 ore. Niente spam, promesso.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">
+          <svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FF2D6B"/>
+                <stop offset="50%" stop-color="#FF8C00"/>
+                <stop offset="100%" stop-color="#FFB300"/>
+              </linearGradient>
+            </defs>
+            <polygon fill="url(#footerLogoGrad)" points="50,0.08 66.5,10.2 85.3,14.7 89.8,33.5 99.9,50 89.8,66.5 85.3,85.3 66.5,89.8 50,99.9 33.5,89.8 14.7,85.3 10.2,66.5 0.08,50 10.2,33.5 14.7,14.7 33.5,10.2"/>
+          </svg>
+          <div class="nav-logo-text">
+            <span class="logo-name">RAMAKE</span>
+            <span class="logo-sub">CV · INFOGRAFICHE · SITI WEB</span>
+          </div>
+        </a>
+        <p class="footer-tagline">Design che lavora per te.</p>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.73a8.24 8.24 0 004.83 1.56V6.84a4.85 4.85 0 01-1.06-.15z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Ramake. Tutti i diritti riservati. · <a href="#">Privacy Policy</a> · <a href="#">Cookie Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
